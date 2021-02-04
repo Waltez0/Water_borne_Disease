@@ -1,0 +1,21 @@
+[
+  {
+    "value": "yes",
+    "synonyms": [
+      "I do",
+      "yes",
+      "yeah",
+      "i have it"
+    ]
+  },
+  {
+    "value": "No",
+    "synonyms": [
+      "No",
+      "I don\u0027t",
+      "I do not",
+      "i do not have it",
+      "not"
+    ]
+  }
+]

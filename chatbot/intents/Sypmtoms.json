@@ -1,0 +1,44 @@
+{
+  "id": "374f7f33-502e-4741-8ed3-1af8729a5b37",
+  "parentId": "b9d120c1-ba4c-4539-b6b5-2bd829aa0530",
+  "rootParentId": "eadb5de6-bdcb-4717-9785-37192cf3883e",
+  "name": "Sypmtoms",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.DefaultWelcomeIntent-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "Hepatitis-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, we will start the testing procedure by checking on your symptoms, kindly confirm whether you are exhibiting the following symptoms, confirm with a yes when you are ready."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

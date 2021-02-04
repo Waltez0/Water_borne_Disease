@@ -1,0 +1,44 @@
+{
+  "id": "b9d120c1-ba4c-4539-b6b5-2bd829aa0530",
+  "parentId": "eadb5de6-bdcb-4717-9785-37192cf3883e",
+  "rootParentId": "eadb5de6-bdcb-4717-9785-37192cf3883e",
+  "name": "Default Welcome Intent - yes",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I am here to help Diagnose you for Water_borne Diseases, we will be testing between Typhoid, Diarrhea and Hepatitis, confirm that you understand by saying Yes"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
