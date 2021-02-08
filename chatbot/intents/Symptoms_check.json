@@ -1,0 +1,208 @@
+{
+  "id": "3bd6e159-c6ea-4fce-84fd-72a07f7e9da9",
+  "parentId": "374f7f33-502e-4741-8ed3-1af8729a5b37",
+  "rootParentId": "eadb5de6-bdcb-4717-9785-37192cf3883e",
+  "name": "Symptoms_check",
+  "auto": true,
+  "contexts": [
+    "Hepatitis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.DefaultWelcomeIntent-yes-yes.Hepatitis-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "16efc365-2a34-4f5c-a65e-0ce90cc7b7be",
+          "name": "age",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$age",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How old are you ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1b19c8fc-bab9-47bb-bd43-aa19d7bf4838",
+          "name": "steroids",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$steroids",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Have you been using steroids or medical supplements recently ? answer with 1 for yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "71ab78de-42ab-47db-89d2-325ada068806",
+          "name": "spiders",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$spiders",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you have swollen veins in clusters on your body ? answer with 1 for Yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c7599dee-8ec0-4440-8476-b30e831153c1",
+          "name": "liver_firm",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$liver_firm",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When you feel your liver with you fingers below the rib cage is it firm or hard ? answer with 1 for Yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a92e75ec-913e-4c96-9c1a-a2259d0061da",
+          "name": "LooseStool",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$LooseStool",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you pas loose stool answer with 1 for yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b6afca58-7892-4f92-87a1-28923a9f2210",
+          "name": "AbdominalPain",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$AbdominalPain",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel any pain in your stomach answer with 1 for yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f4ae1ceb-d98b-41b2-9f37-5e45ff1a9dd3",
+          "name": "Fever",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$Fever",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Have you been feeling feverish or experiencing high body temperature ? answer with 1 for Yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "08c07519-509d-4c63-b579-81cd92bbdda4",
+          "name": "Fatigue",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$Fatigue",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel tired or experience fatigue ? answer with 1 for yes and 0 for No"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "eebc3e37-e8d2-4122-a8e2-4aa111c68b91",
+          "name": "Patient",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$Patient",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly enter your given names for proper Record Keeping"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
